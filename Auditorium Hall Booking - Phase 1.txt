@@ -37,11 +37,7 @@ int main()
             printf("Enter organiser name: ");
             scanf(" %29[^\n]", organiser[count]);
             printf("Enter event name: ");
-            scanf(" %29[^\n]", event[count]);
-            printf("Enter date (DD-MM-YYYY): ");
-            scanf("%10s", date[count]);
-            printf("Slots: 1) 9-11 AM  2) 11 AM-1 PM  3) 2-4 PM  4) 4-6 PM\n");
-            printf("Enter time slot (1-4): ");
+
             scanf("%d", &slot[count]);
 
             if (slot[count] < 1 || slot[count] > 4) {
